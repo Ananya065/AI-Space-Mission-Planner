@@ -1,0 +1,28 @@
+packages:
+  "recharts": "For displaying fuel breakdown and mission telemetry charts"
+  "framer-motion": "For smooth transitions and layout animations in the dashboard"
+  "react-hook-form": "For complex mission planning forms with validation"
+  "@hookform/resolvers": "For Zod schema validation with react-hook-form"
+  "zod": "For form schema validation"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility for merging tailwind classes safely"
+  "date-fns": "For formatting mission creation dates"
+
+images:
+  - path: "artifacts/space-mission-planner/public/images/space-bg.png"
+    description: "Deep space background with subtle nebula clouds in dark cyan and indigo, scattered stars, very dark and moody, suitable for a sci-fi UI background"
+    aspect_ratio: "16:9"
+  - path: "artifacts/space-mission-planner/public/images/planet-moon.png"
+    description: "Detailed 3D render of the Moon against a black background, sharp lighting, cinematic"
+    aspect_ratio: "1:1"
+  - path: "artifacts/space-mission-planner/public/images/planet-mars.png"
+    description: "Detailed 3D render of Mars (red planet) against a black background, sharp lighting, cinematic"
+    aspect_ratio: "1:1"
+  - path: "artifacts/space-mission-planner/public/images/planet-asteroid.png"
+    description: "Detailed 3D render of a rugged metallic asteroid against a black background, sharp lighting, cinematic"
+    aspect_ratio: "1:1"
+
+notes:
+  - Using generated hooks from @workspace/api-client-react
+  - Forcing a dark theme aesthetic globally in CSS since it's a sci-fi mission control app
+  - Expecting wouter for routing
