@@ -12,6 +12,17 @@ In real-world scenarios, mission planning involves **highly complex calculations
 
 This project recreates a simplified version of that process using **algorithmic logic and computational models**, making it accessible for students, developers, and researchers.
 
+
+## 🎬 Demo Video
+
+See the AI Space Mission Planner in action:
+
+[![Watch Demo](https://img.youtube.com/vi/uBGb_5otYlU/0.jpg)](https://www.youtube.com/watch?v=uBGb_5otYlU)
+
+👉 This demo shows how the system generates trajectory, fuel estimation, mission timeline, and feasibility analysis in real-time.
+
+
+
 ---
 
 ## 🎯 Core Objective
